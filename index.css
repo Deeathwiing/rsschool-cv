@@ -1,0 +1,202 @@
+.centralization {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+header {
+  display: block;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  height: 204px;
+  background-color: black;
+
+  font-size: 0;
+}
+
+#rectangle-1 {
+  float: left;
+  width: 70%;
+  height: 114px;
+  background-color: #ffffff;
+}
+
+.rectangle-2 {
+  display: inline-block;
+  width: 30%;
+  height: 114px;
+  background-color: #67febe;
+}
+
+.main-inscription {
+  height: 100%;
+  font-family: Fasthand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #67febe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialization {
+  width: 100%;
+  height: 90px;
+  background-color: #a8a7ab;
+  padding: 0px;
+  margin: 0px;
+}
+
+.specialization-text {
+  position: relative;
+  left: 56px;
+  top: 33px;
+  bottom: 14px;
+  font-family: Fasthand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 44px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.triangle-container {
+  position: absolute;
+  width: 100px;
+  height: 37px;
+  left: 60px;
+}
+
+.triangle {
+  border: 50px solid transparent;
+  border-top: 28px solid #67febe;
+}
+
+main {
+  font-size: 0;
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+}
+
+section {
+  float: left;
+  width: 70%;
+}
+
+aside {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  background-color: #a8a7ab;
+}
+
+img {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.second-font {
+  overflow: hidden;
+  font-family: Fasthand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.contact-information {
+  margin-top: 25%;
+  text-align: center;
+}
+
+#details {
+  position: relative;
+  top: 24px;
+  width: 100%;
+  height: 90px;
+  background-color: rgba(141, 237, 197, 0.59);
+}
+
+#aside-triangle-container {
+  position: relative;
+  top: 46px;
+}
+
+#aside-triangle {
+  border-top: 28px solid rgba(141, 237, 197, 0.59);
+}
+
+#details-text {
+  position: relative;
+  left: 56px;
+  top: 25px;
+  bottom: 14px;
+  font-family: Fasthand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 44px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.top-30 {
+  position: relative;
+  top: 50px;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.triangle-container-reverse {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  top: -190px;
+}
+
+.triangle-reverse {
+  border: 190px solid transparent;
+  border-top: 120px solid #67febe;
+  transform: rotate(-180deg);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.ml-5p {
+  margin-left: 5%;
+}
+
+.main-text {
+  font-family: Fasthand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-transform: none;
+}
+
+section>div {
+  position: relative;
+  left: 56px;
+  top: 33px;
+  bottom: 14px;
+}
+
+.mb-5 {
+  margin-bottom: 5%;
+}
+
+.mt-3 {
+  margin-top: 3%;
+}
